@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+   
+
+    <body>
+        <center>
+            <div>
+                <input type="text" placeholder="Username" id="inputId" />
+                <br>
+                <br>
+                <input type="password" placeholder="password" id="passwordId" />
+                <br>
+                <br>
+                <button  onclick="fun1()">LOGIN</button>
+                <br>
+                <br>
+                <span>
+                    Not registered?
+                    <a href="#">Create an account</a>
+
+                </span>
+
+        </center>
+        </div>
+        <script>
+            function fun1() {
+                var username = document.getElementById("inputId").value
+                 username=username.trim()
+                console.log(username)
+                var password = document.getElementById("passwordId").value
+                console.log(password)
+                if (username == "" && password == "") {
+                    alert("username is empty")
+
+                } else {
+                    alert("success")
+                }
+                // if(password==""){
+                //     alert("password is empty")
+                // }else{
+                //     alert("login success")
+                // }
+                console.log("hi")
+
+            }
+        </script>
+
+    </body>
+    </body>
+</head>
+
+</html>

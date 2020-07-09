@@ -1,0 +1,39 @@
+ body {
+            background-color: #00FF00;
+        }
+
+        button {
+            padding-right: 40%;
+            padding-left: 40%;
+            color: white;
+            background-color: #32CD32;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+
+            /* margin-right: 1px; */
+        }
+
+        div {
+            align-content: center;
+            background-color: white;
+            width: 30%;
+            padding: 30px;
+            margin: 120px;
+        }
+
+        input {
+            padding-right: 10%;
+            padding-left: 10%;
+            color: white;
+            background-color: gainsboro;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            /* text-align: center; */
+        }
+
+        a {
+            color: #00FF7F;
+        }
